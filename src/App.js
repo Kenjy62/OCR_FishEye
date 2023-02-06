@@ -11,7 +11,7 @@ import Lightbox from "./components/ligthbox/ligthbox";
 import Form from "./components/contact/form";
 
 // Required
-import { Routes, Route, useLocation } from "react-router-dom";
+import {Router, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
 // Context
@@ -35,6 +35,7 @@ function App() {
 
   return (
     <>
+    <Router basename="/ocr_fischeye">
       <LigthboxProvider>
       <FormProvider>
         <div className="App">
@@ -48,6 +49,7 @@ function App() {
         <Form />
         </FormProvider>
       </LigthboxProvider>
+      </Router>
     </>
   );
 }
