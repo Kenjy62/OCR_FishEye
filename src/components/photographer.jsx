@@ -17,6 +17,7 @@ function Photographer(props) {
             <div className="w-48 h-48 rounded-full object-cover shadow-lg cursor-pointer" />
           )}
           <img
+            alt={data.photographers[props.index].name}
             className="w-48 h-48 rounded-full object-cover shadow-lg cursor-pointer"
             style={loaded ? {} : { display: "none" }}
             src={require(`../res/images/photographers/pictures/${
