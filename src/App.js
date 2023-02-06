@@ -35,7 +35,6 @@ function App() {
 
   return (
     <>
-    <Router basename="/OCR_FishEye">
       <LigthboxProvider>
       <FormProvider>
         <div className="App">
@@ -49,7 +48,6 @@ function App() {
         <Form />
         </FormProvider>
       </LigthboxProvider>
-      </Router>
     </>
   );
 }
