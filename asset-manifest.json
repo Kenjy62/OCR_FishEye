@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OCR_FishEye/static/css/main.90de0304.css",
-    "main.js": "/OCR_FishEye/static/js/main.bc264097.js",
+    "main.js": "/OCR_FishEye/static/js/main.735e2d16.js",
     "static/media/Travel_Rock_Mountains.mp4": "/OCR_FishEye/static/media/Travel_Rock_Mountains.d323a511834ae4817540.mp4",
     "static/media/Architecture_coverr_circle_empty_highway_in_buenos_aires_587740985637.mp4": "/OCR_FishEye/static/media/Architecture_coverr_circle_empty_highway_in_buenos_aires_587740985637.102763bcd07a14e39b86.mp4",
     "static/media/Animals_Wild_Horses_in_the_mountains.mp4": "/OCR_FishEye/static/media/Animals_Wild_Horses_in_the_mountains.6d3a305db909ffe5ec63.mp4",
@@ -133,10 +133,10 @@
     "static/media/logo.png": "/OCR_FishEye/static/media/logo.951d8b0a7fbc4aad9a62.png",
     "index.html": "/OCR_FishEye/index.html",
     "main.90de0304.css.map": "/OCR_FishEye/static/css/main.90de0304.css.map",
-    "main.bc264097.js.map": "/OCR_FishEye/static/js/main.bc264097.js.map"
+    "main.735e2d16.js.map": "/OCR_FishEye/static/js/main.735e2d16.js.map"
   },
   "entrypoints": [
     "static/css/main.90de0304.css",
-    "static/js/main.bc264097.js"
+    "static/js/main.735e2d16.js"
   ]
 }
