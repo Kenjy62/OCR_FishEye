@@ -1,23 +1,22 @@
-import { createContext } from "react";
-import { useState } from "react";
+import { createContext, useState } from 'react'
 
-export const FormContext = createContext();
+export const FormContext = createContext()
 
 export const FormProvider = ({ children }) => {
-  const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false)
 
-  const toggleForm = (e) => {
-    e.preventDefault();
-    setIsOpen(isOpen === false ? true : false);
+    const toggleForm = (e) => {
+        e.preventDefault()
+        setIsOpen(isOpen === false ? true : false)
 
-    if (isOpen) {
-      document.getElementById("openForm").focus();
+        if (isOpen) {
+            document.getElementById('openForm').focus()
+        }
     }
-  };
 
-  return (
-    <FormContext.Provider value={{ isOpen, toggleForm }}>
-      {children}
-    </FormContext.Provider>
-  );
-};
+    return (
+        <FormContext.Provider value={{ isOpen, toggleForm }}>
+            {children}
+        </FormContext.Provider>
+    )
+}
