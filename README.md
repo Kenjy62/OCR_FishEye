@@ -38,4 +38,4 @@ Integrate the models, SEO, Screen Reader Compatibility and Accessibility Keyboar
 
 <br>
 
-<font size="10"><p align="center"><a href="https://kenjy62.github.io/OCR_OhMyFood">Démonstration</a></p></font>
+<font size="10"><p align="center"><a href="https://kenjy62.github.io/OCR_FishEye">Démonstration</a></p></font>
