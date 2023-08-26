@@ -32,6 +32,22 @@ Integrate the models, SEO, Screen Reader Compatibility and Accessibility Keyboar
 
 <br>
 
+# How to Install
+In terminal : 
+```bash 
+git clone https://github.com/Kenjy62/OCR_FishEye
+```
+
+```bash 
+cd OCR_FishEye
+```
+
+```bash 
+npm install
+```
+```bash 
+npm start
+```
 # Google PageSpeed Insights (Desktop & Mobile)
 <img src="https://zupimages.net/up/23/06/chex.png">
 <img src="https://zupimages.net/up/23/06/tyfl.png">
